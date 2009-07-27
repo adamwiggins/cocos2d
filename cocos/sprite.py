@@ -70,7 +70,9 @@ class Sprite( BatchableNode, pyglet.sprite.Sprite):
         sprite = Sprite('grossini.png')
     '''
 
-    def __init__( self, image, position=(0,0), rotation=0, scale=1, opacity = 255, color=(255,255,255), anchor = None ):
+    BLEND_STANDARD, BLEND_ADDITIVE = range(2)
+
+    def __init__( self, image, position=(0,0), rotation=0, scale=1, opacity = 255, color=(255,255,255), blend_mode = BLEND_STANDARD, anchor = None ):
         '''Initialize the sprite
 
         :Parameters:
@@ -131,6 +133,9 @@ class Sprite( BatchableNode, pyglet.sprite.Sprite):
         #: color of the sprite in R,G,B format where 0,0,0 is black and 255,255,255 is white
         self.color = color
 
+        #: blend mode: BLEND_STANDARD (use alpha value) or BLEND_ADDITIVE (use color overlay, ignore alpha)
+        self.blend_mode = blend_mode
+
 
     def contains(self, x, y):
         '''Test whether this (untransformed) Sprite contains the pixel coordinates
@@ -186,8 +191,15 @@ class Sprite( BatchableNode, pyglet.sprite.Sprite):
 
     image_anchor = property(_get_anchor, _set_anchor)
 
+    def setup_blending_mode(self):
+        if self.blend_mode == Sprite.BLEND_ADDITIVE:
+            glBlendFunc(GL_SRC_ALPHA, GL_ONE)
+        else:
+            glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
     def draw(self):
         self._group.set_state()
+        self.setup_blending_mode()
         if self._vertex_list is not None:
             self._vertex_list.draw(GL_QUADS)
         self._group.unset_state()
