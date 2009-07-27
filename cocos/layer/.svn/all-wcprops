@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/782/trunk/cocos/layer
+END
+base_layers.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/704/trunk/cocos/layer/base_layers.py
+END
+util_layers.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/782/trunk/cocos/layer/util_layers.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/547/trunk/cocos/layer/__init__.py
+END
+python_interpreter.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/708/trunk/cocos/layer/python_interpreter.py
+END

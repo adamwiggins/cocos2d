@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/863/trunk
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/547/trunk/LICENSE
+END
+LICENSE.python_interpreter
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/500/trunk/LICENSE.python_interpreter
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/592/trunk/INSTALL
+END
+LICENSE.euclid
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/504/trunk/LICENSE.euclid
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/756/trunk/CHANGELOG
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/757/trunk/setup.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/750/trunk/README
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/751/trunk/setup.cfg
+END
+LICENSE.grossini
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/592/trunk/LICENSE.grossini
+END

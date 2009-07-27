@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/863/trunk/cocos
+END
+camera.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/706/trunk/cocos/camera.py
+END
+particle_systems.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/776/trunk/cocos/particle_systems.py
+END
+gl_framebuffer_object.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/751/trunk/cocos/gl_framebuffer_object.py
+END
+path.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/611/trunk/cocos/path.py
+END
+rect.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/547/trunk/cocos/rect.py
+END
+scene.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/656/trunk/cocos/scene.py
+END
+draw.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/786/trunk/cocos/draw.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/798/trunk/cocos/__init__.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/771/trunk/cocos/utils.py
+END
+particle.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/740/trunk/cocos/particle.py
+END
+menu.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/800/trunk/cocos/menu.py
+END
+euclid.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/11/trunk/cocos/euclid.py
+END
+sprite.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/783/trunk/cocos/sprite.py
+END
+shader.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/634/trunk/cocos/shader.py
+END
+wired.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/635/trunk/cocos/wired.py
+END
+director.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/863/trunk/cocos/director.py
+END
+cocosnode.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/779/trunk/cocos/cocosnode.py
+END
+framegrabber.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/798/trunk/cocos/framegrabber.py
+END
+tiles.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/805/trunk/cocos/tiles.py
+END
+batch.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/807/trunk/cocos/batch.py
+END
+text.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/737/trunk/cocos/text.py
+END
+skeleton.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/798/trunk/cocos/skeleton.py
+END
+grid.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/690/trunk/cocos/grid.py
+END

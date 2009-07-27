@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/680/trunk/samples/tetrico
+END
+tetrico.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/680/trunk/samples/tetrico/tetrico.py
+END
+levels.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/671/trunk/samples/tetrico/levels.py
+END
+gamemodel.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/661/trunk/samples/tetrico/gamemodel.py
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/663/trunk/samples/tetrico/LICENSE
+END
+hiscore.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/661/trunk/samples/tetrico/hiscore.py
+END
+constants.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/653/trunk/samples/tetrico/constants.py
+END
+gamectrl.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/661/trunk/samples/tetrico/gamectrl.py
+END
+HUD.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/680/trunk/samples/tetrico/HUD.py
+END
+colors.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/661/trunk/samples/tetrico/colors.py
+END
+status.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/661/trunk/samples/tetrico/status.py
+END
+gameview.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/663/trunk/samples/tetrico/gameview.py
+END
+gameover.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/680/trunk/samples/tetrico/gameover.py
+END
+hi_scores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/661/trunk/samples/tetrico/hi_scores.txt
+END
+soundex.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/672/trunk/samples/tetrico/soundex.py
+END

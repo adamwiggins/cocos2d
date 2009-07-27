@@ -1,0 +1,27 @@
+Installation
+============
+
+ 1. Install python 2.4 with ctypes or python 2.5.
+
+ 2. Install pyglet 1.1beta or newer from `pyglet's homepage`_ . **If you want to use pyglet 1.0, use cocos2d v0.1.x instead.**
+
+ 3. Finally, choose one of the followings\:
+
+ * If you want to build and .egg, use the setup.py that comes with the distribution, and install that egg using easy_install.
+
+ * Copy "cocos" to your project::
+
+    $ cp -r cocos $PROJECT_HOME
+
+ * Include cocos in your PYTHONPATH::
+
+    $ export PYTHONPATH=$PYTHONPATH:/path/to/cocos
+
+ * Or insert cocos in sys.path::
+
+    import sys
+    sys.path.insert(0, PATH_TO_COCOS))
+
+
+
+.. _pyglet's homepage: http://www.pyglet.org

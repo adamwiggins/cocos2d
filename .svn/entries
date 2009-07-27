@@ -1,0 +1,151 @@
+8
+
+dir
+863
+http://los-cocos.googlecode.com/svn/trunk
+http://los-cocos.googlecode.com/svn
+
+
+
+2009-05-09T15:59:33.112576Z
+863
+facundobatista
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f663ce52-ac46-0410-b8de-c1c220b0eb76
+
+test
+dir
+
+tools
+dir
+
+LICENSE
+file
+
+
+
+
+2009-06-09T05:14:57.000000Z
+af41a6dabce50e8bac11c0507f3b719e
+2008-05-03T15:32:50.782963Z
+547
+ricardoquesada
+
+samples
+dir
+
+doc
+dir
+
+LICENSE.python_interpreter
+file
+
+
+
+
+2009-06-09T05:14:57.000000Z
+faad62693ce9b0fa4537566f410aefa9
+2008-04-26T05:16:47.380938Z
+500
+ricardoquesada
+
+cocos
+dir
+
+INSTALL
+file
+
+
+
+
+2009-06-09T05:14:57.000000Z
+b9d3e2864f7bdaa207c2ccff4e223a19
+2008-05-09T20:14:34.460168Z
+592
+ricardoquesada
+
+LICENSE.euclid
+file
+
+
+
+
+2009-06-09T05:14:57.000000Z
+8d9d10ac5cc19a8d3242534fe6213538
+2008-04-27T06:43:33.460566Z
+504
+ricardoquesada
+
+CHANGELOG
+file
+
+
+
+
+2009-06-09T05:14:57.000000Z
+6b6918e2e0dc05e29a9a2ee68b2535d7
+2008-09-06T01:53:40.443869Z
+756
+lucio.torre
+
+setup.py
+file
+
+
+
+
+2009-06-09T05:14:57.000000Z
+a085d830e54e89e0ea6367c22d025063
+2008-09-07T05:42:27.213123Z
+757
+lucio.torre
+
+README
+file
+
+
+
+
+2009-06-09T05:14:57.000000Z
+bd162711e870585644ebba3e55542de4
+2008-09-06T00:04:08.086010Z
+750
+lucio.torre
+
+setup.cfg
+file
+
+
+
+
+2009-06-09T05:14:57.000000Z
+0466eba75edeb01ec0c8e40d5143a520
+2008-09-06T00:44:26.989688Z
+751
+lucio.torre
+
+LICENSE.grossini
+file
+
+
+
+
+2009-06-09T05:14:57.000000Z
+9effa186779877ea613cffc4b13fdb43
+2008-05-09T20:14:34.460168Z
+592
+ricardoquesada
+

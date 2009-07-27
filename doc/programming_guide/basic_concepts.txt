@@ -1,0 +1,95 @@
+Basic Concepts
+==============
+
+There are some basic concepts introduced in this library that you will
+need to know when developing a cocos2d application:
+
+.. contents::
+    :local:
+
+Scenes
+------
+
+An scene (implemented with the `Scene` object) is a more or less an
+independent piece of the app workflow.
+Some people may call them "screens" or "stages". Your app can have
+many scenes, but only one of them is active at a given time.
+
+For example, you could have a game with the following scenes:
+Intro, Menu, Level 1, Cutscene 1, Level 2, Winning cutscene,
+losing cutscene, High scores screen.
+
+You can define every of one of these scenes more or less as separate apps;
+there is a bit of glue between them containing the logic for connecting
+scenes (the intro goes to the menu when interrupted or finishing,
+Level 1 can lead you to the cutscene 1 if finished or to the losing
+cutscene if you lose, etc.).
+
+.. figure:: scenes.png
+
+A cocos2d `Scene` is composed of one or more layers (implemented with the
+`Layer` object), all of them piled up.
+Layers give the scene an appearance and behavior; the normal use case is to
+just make instances of `Scene` with the layers that you want. 
+
+There is also a family of `Scene` classes called transitions (implemented with
+the `TrasitionScene` object) which allow you to
+make transitions between two scenes (fade out/in, slide from a side, etc).
+
+Since scenes are subclass of `CocosNode`, they can be transformed manually or
+by using actions.
+See `Actions, Transformations and Effects` for more detail about actions.
+
+Director
+--------
+
+The `Director` is the component which takes care about going back and forth
+between scenes.
+
+The `Director` is a shared (singleton) object. It knows which scene is currently
+active, and it handles a stack of scenes to allow things like "scene calls"
+(pausing a `Scene` and putting it on hold while other enters, and then returning
+to the original). Is the one who will actually change the `Scene`, after a
+`Layer` has asked for push, replacement or end of the current scene.
+
+The `Director` is also responsible of initializing the main window.
+
+Layers
+------
+
+A `Layer` has as size the whole drawable area (window or screen), and knows how to
+draw itself. It can be semi transparent (having holes and/or partial
+transparency in some/all places), allowing to see other layers behind it.
+Layers are the ones defining appearance and behavior, so most of your programming
+time will be spent coding `Layer` subclasses that do what you need. 
+
+.. image:: layers.png
+
+The `Layer` is where you define event handlers. Events are propagated to layers
+(from front to back) until some layer catches the event and accepts it.
+
+Even if any serious app will require you to define some `Layer` classes, cocos2d
+provides a library of useful predefined layers (a simple menu layer: `Menu`,
+a color layer: `ColorLayer`, a multiplexor between other layers: `MultiplexLayer`,
+a map layer: `HexMapLayer`, and more ).
+
+Layers can have `Sprite`, `Label`, `HTMLLabel` and even other `Layer` objects as
+children.
+
+Since layers are subclass of `CocosNode`, they can be transformed manually or 
+by using actions.
+See `Actions, Transformations and Effects` for more detail about actions.
+
+
+Sprites
+-------
+
+A cocos2d' sprite is like any other computer sprite.
+It is a 2D image that can be moved, rotated, scaled, animated, etc. 
+
+Sprites (implemented using the `Sprite` class) can have other sprites
+as children. When a parent is transformed, all its children are transformed as well.
+
+Since sprites are subclass of `CocosNode`, they can be transformed manually
+or by using actions.
+See `Actions, Transformations and Effects` for more detail about actions.

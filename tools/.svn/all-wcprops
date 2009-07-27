@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/798/trunk/tools
+END
+gendoc_pdf.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/tools/gendoc_pdf.py
+END
+path_draw.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/167/trunk/tools/path_draw.py
+END
+epydoc_cocos.css
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/535/trunk/tools/epydoc_cocos.css
+END
+primitives.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/669/trunk/tools/primitives.py
+END
+nose.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/534/trunk/tools/nose.cfg
+END
+view_skeleton.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/798/trunk/tools/view_skeleton.py
+END
+epydoc.config
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/549/trunk/tools/epydoc.config
+END
+gendoc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/798/trunk/tools/gendoc.sh
+END
+license.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/547/trunk/tools/license.py
+END
+foo.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/213/trunk/tools/foo.py
+END
+gendoc_html.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/tools/gendoc_html.py
+END
+gentileset.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/784/trunk/tools/gentileset.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/601/trunk/tools/README
+END
+editor.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/760/trunk/tools/editor.py
+END

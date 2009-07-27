@@ -1,0 +1,55 @@
+cocos2d: A framework for building 2D games
+http://cocos2d.org
+
+version: 0.3.0
+
+
+Requirements
+------------
+
+ Software:
+
+ * python 2.4 with ctypes or python 2.5
+ * pyglet 1.1b2 or newer (http://www.pyglet.org)
+   ( If you want to use pyglet 1.0, use cocos v0.1.x instead. )
+ * Linux, Windows or Mac OS/X
+
+ Hardware:
+
+ * To execute some effects you will need a video card with the:
+     GL_EXT_framebuffer_object extension.
+
+
+Installing
+----------
+
+   Read INSTALL file
+
+
+Learning cocos2d
+----------------
+
+ * go the tuturials / documentation page:
+   http://cocos2d.org/doc.html
+
+   you will find:
+    . the Programming Guide
+    . the API Reference
+    . some tutorial videos
+
+ * run ( and read ) the samples:
+   $ cd samples
+   $ python RUN_ALL_THE_SAMPLES.py
+
+ * run ( and read ) the test:
+   $ cd test
+   $ python test_*.py
+     ( and read the tests source code )
+
+
+Do you have any doubt ?
+http://groups.google.com/group/cocos-discuss
+
+
+Did you find any bug ?
+http://code.google.com/p/los-cocos/issues/list

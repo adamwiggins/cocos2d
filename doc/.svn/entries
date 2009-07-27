@@ -1,0 +1,58 @@
+8
+
+dir
+863
+http://los-cocos.googlecode.com/svn/trunk/doc
+http://los-cocos.googlecode.com/svn
+
+
+
+2008-12-27T01:53:00.772507Z
+798
+lucio.torre
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f663ce52-ac46-0410-b8de-c1c220b0eb76
+
+programming_guide
+dir
+
+index.txt
+file
+
+
+
+
+2009-06-09T05:14:54.000000Z
+b69bcfdbaa5f45d96d8d1c4ab2677c5d
+2008-05-12T20:10:46.209909Z
+612
+ricardoquesada
+
+faq
+dir
+
+doc.css
+file
+
+
+
+
+2009-06-09T05:14:54.000000Z
+9066365c4d27ce8f983d05d35de48ea9
+2008-05-01T00:06:42.137246Z
+526
+ricardoquesada
+
