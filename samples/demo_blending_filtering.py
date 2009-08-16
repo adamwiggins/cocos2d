@@ -24,7 +24,7 @@ class FontLayer( Layer ):
 
         self.batch = pyglet.graphics.Batch()
 
-        self.text_title = pyglet.text.Label("Blending demo",
+        self.text_title = pyglet.text.Label("Blending and filtering demo",
             font_size=32,
             x=5,
             y=director.get_window_size()[1],
@@ -56,6 +56,16 @@ class SpriteLayer( Layer ):
         self.sprite2.x = director.get_window_size()[0] / 2 + 100
         self.sprite2.y = director.get_window_size()[0] / 2
         self.add( self.sprite2 )
+
+        self.sprite3 = Sprite(self.image, blend_mode=Sprite.BLEND_STANDARD, filter_mode=Sprite.FILTER_NONE)
+        self.sprite3.x = director.get_window_size()[0] / 2 - 100
+        self.sprite3.y = director.get_window_size()[0] / 2 - 150
+        self.add( self.sprite3 )
+
+        self.sprite4 = Sprite(self.image, blend_mode=Sprite.BLEND_ADDITIVE, filter_mode=Sprite.FILTER_NONE)
+        self.sprite4.x = director.get_window_size()[0] / 2 + 100
+        self.sprite4.y = director.get_window_size()[0] / 2 - 150
+        self.add( self.sprite4 )
 
     def on_key_release( self, keys, mod ):
         # LEFT: go to previous scene

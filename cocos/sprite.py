@@ -71,8 +71,9 @@ class Sprite( BatchableNode, pyglet.sprite.Sprite):
     '''
 
     BLEND_STANDARD, BLEND_ADDITIVE = range(2)
+    FILTER_BILINEAR, FILTER_NONE = range(2)
 
-    def __init__( self, image, position=(0,0), rotation=0, scale=1, opacity = 255, color=(255,255,255), blend_mode = BLEND_STANDARD, anchor = None ):
+    def __init__( self, image, position=(0,0), rotation=0, scale=1, opacity = 255, color=(255,255,255), blend_mode = BLEND_STANDARD, filter_mode = FILTER_BILINEAR, anchor = None ):
         '''Initialize the sprite
 
         :Parameters:
@@ -136,6 +137,9 @@ class Sprite( BatchableNode, pyglet.sprite.Sprite):
         #: blend mode: BLEND_STANDARD (use alpha value) or BLEND_ADDITIVE (use color overlay, ignore alpha)
         self.blend_mode = blend_mode
 
+        #: filter mode: FILTER_BILINEAR (best for scaling) or FILTER_NONE (best for 1:1 pixel-perfect images)
+        self.filter_mode = filter_mode
+
 
     def contains(self, x, y):
         '''Test whether this (untransformed) Sprite contains the pixel coordinates
@@ -197,9 +201,18 @@ class Sprite( BatchableNode, pyglet.sprite.Sprite):
         else:
             glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
+    def setup_filter_mode(self):
+        if self.filter_mode == Sprite.FILTER_BILINEAR:
+            glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST)
+            glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR)
+        elif self.filter_mode == Sprite.FILTER_NONE:
+            glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST)
+            glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST)
+
     def draw(self):
         self._group.set_state()
         self.setup_blending_mode()
+        self.setup_filter_mode()
         if self._vertex_list is not None:
             self._vertex_list.draw(GL_QUADS)
         self._group.unset_state()
